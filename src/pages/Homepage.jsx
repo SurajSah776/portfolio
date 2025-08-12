@@ -2,8 +2,6 @@ import React, { Suspense } from "react";
 import Hero from "../components/Hero";
 import SkeletonLoader from "../components/SkeletonLoader";
 import { useTheme } from "../contexts/ThemeContext";
-import SEO from "../components/SEO";
-import { seoData } from "../data/seoData";
 
 // Lazy load non-critical components
 const FeaturedProjects = React.lazy(() =>
@@ -13,9 +11,6 @@ const Skills = React.lazy(() => import("../components/Skills"));
 const AchievementShowcase = React.lazy(() =>
   import("../components/AchievementShowcase")
 );
-const TestimonialHighlights = React.lazy(() =>
-  import("../components/TestimonialHighlights")
-);
 
 const Homepage = () => {
   const { classes } = useTheme();
@@ -24,7 +19,6 @@ const Homepage = () => {
     <div
       className={`min-h-screen ${classes.bg} transition-colors duration-300`}
     >
-      <SEO {...seoData.home} />
       {/* Hero Section - Critical, load immediately */}
       <Hero />
 
@@ -65,19 +59,6 @@ const Homepage = () => {
         }
       >
         <AchievementShowcase />
-      </Suspense>
-
-      {/* Testimonial Highlights Section - Lazy loaded */}
-      <Suspense
-        fallback={
-          <SkeletonLoader
-            variant="card"
-            count={4}
-            className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto px-6 py-16"
-          />
-        }
-      >
-        <TestimonialHighlights limit={4} />
       </Suspense>
     </div>
   );

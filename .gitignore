@@ -23,3 +23,14 @@ ProjectRequirement.md
 *.njsproj
 *.sln
 *.sw?
+
+# Other files
+Latest-Portfolio.zip
+Portfolio-Previous.zip
+THEME_FIXES_SUMMARY.md
+THEME_IMPLEMENTATION_COMPLETE.md
+Project.md
+ProjectRequirement.md
+Cleanup_summary.md
+complete_theme_implementation.md
+complete_theme_implementation_final.md

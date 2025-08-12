@@ -8,8 +8,6 @@ import {
 } from "../data/projects.js";
 import LazyImage from "../components/LazyImage";
 import { useDebounce } from "../hooks/usePerformance";
-import SEO from "../components/SEO";
-import { seoData } from "../data/seoData";
 
 const PortfolioPage = () => {
   const { classes } = useTheme();
@@ -96,7 +94,6 @@ const PortfolioPage = () => {
     <div
       className={`container mx-auto p-4 sm:p-6 lg:p-8 ${classes.bg} min-h-screen transition-colors duration-300`}
     >
-      <SEO {...seoData.portfolio} />
       {/* Header Section */}
       <div className="text-center mb-8 sm:mb-12">
         <h1

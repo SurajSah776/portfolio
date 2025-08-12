@@ -4,8 +4,6 @@ import SocialLinks from "../components/SocialLinks";
 import AvailabilityStatus from "../components/AvailabilityStatus";
 import { contactInfo, serviceContactPreferences } from "../data/social";
 import { useTheme } from "../contexts/ThemeContext";
-import SEO from "../components/SEO";
-import { seoData } from "../data/seoData";
 
 const ContactPage = () => {
   const { classes } = useTheme();
@@ -14,7 +12,6 @@ const ContactPage = () => {
     <div
       className={`container mx-auto p-8 ${classes.bg} min-h-screen transition-colors duration-300`}
     >
-      <SEO {...seoData.contact} />
       {/* Hero Section */}
       <div className="text-center mb-12">
         <h1 className={`text-5xl font-bold mb-4 ${classes.text}`}>

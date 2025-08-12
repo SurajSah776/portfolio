@@ -43,18 +43,6 @@ export const mockSkill = {
   category: "Frontend",
 };
 
-export const mockTestimonial = {
-  id: 1,
-  name: "Test Client",
-  position: "CEO",
-  company: "Test Company",
-  project: "Test Project",
-  testimonial: "Great work on the project!",
-  rating: 5,
-  image: "/images/test-client.jpg",
-  date: "2024",
-};
-
 // Accessibility testing helper
 export const axeConfig = {
   rules: {

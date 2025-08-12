@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import PageTransition from "./components/PageTransition";
 import SkeletonLoader from "./components/SkeletonLoader";
-import SEOProvider from "./providers/SEOProvider";
+// import SEOProvider from "./providers/SEOProvider";
 import Homepage from "./pages/Homepage";
 
 // Lazy load non-critical pages for better performance
@@ -29,7 +29,7 @@ function App() {
 
   return (
     <ThemeProvider>
-      <SEOProvider>
+      {/* <SEOProvider> */}
         <Router>
           <div className="min-h-screen flex flex-col transition-colors duration-300">
             <Navbar />
@@ -63,7 +63,7 @@ function App() {
             <Footer />
           </div>
         </Router>
-      </SEOProvider>
+      {/* </SEOProvider> */}
     </ThemeProvider>
   );
 }

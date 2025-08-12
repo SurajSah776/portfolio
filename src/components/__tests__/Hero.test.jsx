@@ -48,11 +48,14 @@ describe("Hero", () => {
     expect(screen.getByText("Full-Stack Expertise")).toBeInTheDocument();
   });
 
-  it("shows professional photo placeholder", () => {
+  it("shows professional photo", () => {
     renderWithProviders(<Hero />);
 
-    expect(screen.getByText("Professional Photo")).toBeInTheDocument();
-    expect(screen.getByText("Coming Soon")).toBeInTheDocument();
+    const profileImage = screen.getByAltText(
+      "Suraj Kumar Sah - Full Stack Developer at ESSPL"
+    );
+    expect(profileImage).toBeInTheDocument();
+    expect(profileImage).toHaveAttribute("src", "/images/profile.jpg");
   });
 
   it("has proper section structure", () => {

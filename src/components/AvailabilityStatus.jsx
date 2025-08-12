@@ -1,9 +1,8 @@
 import React from "react";
-import professionalMetrics from "../data/professionalMetrics";
+import { availability, achievements } from "../data/experience";
 import { useTheme } from "../contexts/ThemeContext";
 
 const AvailabilityStatus = ({ compact = false }) => {
-  const { availability, achievements } = professionalMetrics;
   const { classes } = useTheme();
 
   if (compact) {

@@ -1,12 +1,10 @@
 import React from "react";
-import freelanceServices from "../data/freelanceServices";
+import { freelanceServices } from "../data/services";
 import AvailabilityStatus from "../components/AvailabilityStatus";
-import TestimonialHighlights from "../components/TestimonialHighlights";
+
 import ProjectInquiryForm from "../components/ProjectInquiryForm";
 import ProfessionalMetrics from "../components/ProfessionalMetrics";
 import { useTheme } from "../contexts/ThemeContext";
-import SEO from "../components/SEO";
-import { seoData } from "../data/seoData";
 
 const ServicesPage = () => {
   const { classes } = useTheme();
@@ -15,7 +13,6 @@ const ServicesPage = () => {
     <div
       className={`container mx-auto p-8 ${classes.bg} min-h-screen transition-colors duration-300`}
     >
-      <SEO {...seoData.services} />
       <div className="text-center mb-12">
         <h1 className={`text-5xl font-bold mb-4 ${classes.text}`}>
           Professional Services
@@ -409,11 +406,6 @@ const ServicesPage = () => {
       {/* Professional Metrics Dashboard */}
       <div className="mb-20">
         <ProfessionalMetrics />
-      </div>
-
-      {/* Client Testimonials and Success Metrics */}
-      <div className="mb-20">
-        <TestimonialHighlights limit={4} />
       </div>
 
       {/* Project Inquiry Form */}

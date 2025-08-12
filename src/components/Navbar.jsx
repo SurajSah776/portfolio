@@ -7,6 +7,14 @@ const Navbar = () => {
   const location = useLocation();
   const { classes } = useTheme();
 
+  // Function to scroll to top smoothly
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   const mainNavItems = [
     { name: "About", path: "/about" },
     { name: "Portfolio", path: "/portfolio" },
@@ -24,6 +32,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link
             to="/"
+            onClick={scrollToTop}
             className="flex items-center space-x-2 text-xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent hover:from-purple-500 hover:to-blue-500 transition-all duration-300"
             aria-label="Home"
           >
@@ -41,6 +50,7 @@ const Navbar = () => {
                 <li key={item.name}>
                   <Link
                     to={item.path}
+                    onClick={scrollToTop}
                     className={`font-medium transition-all duration-300 relative group ${
                       location.pathname === item.path
                         ? "text-purple-600"
@@ -66,6 +76,7 @@ const Navbar = () => {
             {/* CTA Button */}
             <Link
               to="/contact"
+              onClick={scrollToTop}
               className="bg-primary text-white px-6 py-2 rounded-full font-medium transition-all duration-300 hover:shadow-lg hover:scale-105"
             >
               Hire Me

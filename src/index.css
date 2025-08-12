@@ -186,6 +186,39 @@ html {
   }
 }
 
+/* Mobile navigation fixes */
+@media (max-width: 768px) {
+  /* Prevent horizontal scroll when mobile menu is open */
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Touch-friendly mobile navigation */
+  .mobile-nav-item {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* Mobile navigation height optimization */
+@media (max-height: 600px) {
+  /* For shorter screens, make navigation items more compact */
+  .mobile-nav-compact {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+@media (min-height: 600px) {
+  /* For taller screens, ensure navigation area has good height */
+  .mobile-nav-expanded {
+    min-height: 400px;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    backdrop-filter: blur(10px);
+  }
+}
+
 /* Improved focus states for accessibility */
 *:focus-visible {
   outline: 2px solid rgb(152, 16, 250);
