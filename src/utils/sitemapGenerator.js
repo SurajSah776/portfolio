@@ -47,12 +47,7 @@ const staticPages = [
         priority: '0.7',
         lastmod: new Date().toISOString().split('T')[0]
     },
-    {
-        url: '/testimonials',
-        changefreq: 'monthly',
-        priority: '0.6',
-        lastmod: new Date().toISOString().split('T')[0]
-    },
+
     {
         url: '/certifications',
         changefreq: 'monthly',

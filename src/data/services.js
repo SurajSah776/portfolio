@@ -17,7 +17,11 @@ export const freelanceServices = [
         deliverables: ["Source Code", "Documentation", "Deployment Guide", "Testing Suite"],
         timeline: "2-6 weeks",
         idealFor: "Startups, Small Businesses, Personal Projects",
-        startingPrice: "$500",
+        pricing: {
+            starting: "$500",
+            range: "$500 - $1000",
+            note: "Based on project complexity and requirements"
+        },
         complexity: "Medium",
         category: "frontend"
     },
@@ -38,7 +42,11 @@ export const freelanceServices = [
         deliverables: ["API Endpoints", "Database Schema", "API Documentation", "Testing Suite"],
         timeline: "3-8 weeks",
         idealFor: "Web Applications, Mobile App Backends, Data APIs",
-        startingPrice: "$800",
+        pricing: {
+            starting: "$800",
+            range: "$800 - $1500",
+            note: "Depends on API complexity and integrations"
+        },
         complexity: "High",
         category: "backend"
     },
@@ -64,7 +72,11 @@ export const freelanceServices = [
         ],
         timeline: "8-16 weeks",
         idealFor: "E-commerce Businesses, Online Marketplaces",
-        startingPrice: "$2000",
+        pricing: {
+            starting: "$2000",
+            range: "$2000 - $5000",
+            note: "Comprehensive solution with all features included"
+        },
         complexity: "High",
         category: "fullstack"
     },
@@ -90,7 +102,11 @@ export const freelanceServices = [
         ],
         timeline: "4-12 weeks",
         idealFor: "Businesses, Organizations, Custom Requirements",
-        startingPrice: "$1200",
+        pricing: {
+            starting: "$1200",
+            range: "$1200 - $3000",
+            note: "Custom solution based on specific requirements"
+        },
         complexity: "Medium-High",
         category: "fullstack"
     }

@@ -1,4 +1,3 @@
-import profile from "../assets/Profile1.jpg";
 import {
   experience,
   professionalSummary,
@@ -8,8 +7,6 @@ import {
 import { skillCategories } from "../data/skills";
 import { primaryContacts } from "../data/social";
 import { useTheme } from "../contexts/ThemeContext";
-import SEO from "../components/SEO";
-import { seoData } from "../data/seoData";
 
 const AboutPage = () => {
   const currentRole = experience.find((exp) => exp.current);
@@ -19,7 +16,6 @@ const AboutPage = () => {
     <div
       className={`container mx-auto p-8 ${classes.bg} min-h-screen transition-colors duration-300`}
     >
-      <SEO {...seoData.about} />
       {/* Hero Section */}
       <div className="text-center mb-16">
         <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
@@ -38,7 +34,7 @@ const AboutPage = () => {
         <div className="flex-shrink-0">
           <div className="relative">
             <img
-              src={profile}
+              src="/images/profile.jpg"
               alt="Suraj Kumar Sah - Full Stack Developer at ESSPL"
               className="rounded-2xl w-80 h-80 object-cover shadow-2xl border-4 border-purple-500"
             />

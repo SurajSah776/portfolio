@@ -184,15 +184,16 @@ export const allSkills = [
     ...skills.tools
 ];
 
-// Core technologies for quick reference
+// Core technologies for quick reference (matches project technologies)
 export const coreTechnologies = [
     "React.js",
     "Python",
+    "FastAPI",
     "JavaScript",
-    "SQL Server",
     "Tailwind CSS",
-    "Django",
-    "FastAPI"
+    "PostgreSQL",
+    "Node.js",
+    "MongoDB"
 ];
 
 // Skill levels for filtering and display

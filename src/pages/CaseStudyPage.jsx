@@ -2,8 +2,6 @@ import React from "react";
 import { useParams, Link } from "react-router-dom";
 import { getProjectById } from "../data/projects.js";
 import { useTheme } from "../contexts/ThemeContext";
-import SEO from "../components/SEO";
-import { generateProjectSEO } from "../data/seoData";
 
 const CaseStudyPage = () => {
   const { slug } = useParams();
@@ -38,7 +36,6 @@ const CaseStudyPage = () => {
     <div
       className={`${classes.bg} min-h-screen transition-colors duration-300`}
     >
-      <SEO {...generateProjectSEO(project)} />
       {/* Hero Section */}
       <div className="relative h-96 overflow-hidden">
         <img

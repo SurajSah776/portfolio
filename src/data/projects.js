@@ -279,21 +279,29 @@ export const projectCategories = [
     "Social Media"
 ];
 
-// All technologies used across projects
+// All technologies used across projects (standardized)
 export const allTechnologies = [
     "React.js",
     "Redux Toolkit",
-    "FastAPI",
-    "PostgreSQL",
+    "Context API",
+    "JavaScript",
     "Tailwind CSS",
+    "HTML5 & CSS3",
     "Python",
+    "FastAPI",
+    "Node.js",
+    "Express.js",
+    "PostgreSQL",
+    "MongoDB",
+    "SQL Server",
     "JWT",
-    "Docker",
     "WebSocket",
-    "Redis",
+    "Docker",
+    "Git",
     "CI/CD",
     "SQL Alchemy",
-    "Alembic"
+    "Alembic",
+    "Redis"
 ];
 
 // Project statistics for showcase

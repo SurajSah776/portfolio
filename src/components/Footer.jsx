@@ -6,6 +6,14 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   const { classes } = useTheme();
 
+  // Function to scroll to top smoothly
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   const footerSections = [
     {
       title: "Navigation",
@@ -76,6 +84,7 @@ const Footer = () => {
                   <li key={link.name}>
                     <Link
                       to={link.path}
+                      onClick={scrollToTop}
                       className={`${classes.textMuted} hover:text-purple-600 transition-colors duration-300 text-sm`}
                     >
                       {link.name}
@@ -100,6 +109,7 @@ const Footer = () => {
               <div className="flex flex-col sm:flex-row gap-2">
                 <Link
                   to="/contact"
+                  onClick={scrollToTop}
                   className="bg-primary text-white px-4 py-2 rounded-lg text-sm font-medium hover:shadow-lg transition-all duration-300 text-center"
                 >
                   Start Project

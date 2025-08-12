@@ -144,7 +144,7 @@ const Skills = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mt-8 sm:mt-12">
           <div className="text-center">
             <div className="text-2xl sm:text-3xl font-bold text-purple-600 mb-1 sm:mb-2">
-              15+
+              10+
             </div>
             <div className={`text-xs sm:text-sm ${classes.textMuted}`}>
               Technologies
@@ -152,7 +152,7 @@ const Skills = () => {
           </div>
           <div className="text-center">
             <div className="text-2xl sm:text-3xl font-bold text-purple-600 mb-1 sm:mb-2">
-              4+
+              1+
             </div>
             <div className="text-xs sm:text-sm text-gray-600">
               Years Experience

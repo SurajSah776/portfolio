@@ -95,27 +95,14 @@ const Hero = () => {
             className="flex-shrink-0 order-1 lg:order-2"
           >
             <div className="relative">
-              {/* Photo placeholder with gradient border */}
+              {/* Professional photo with gradient border */}
               <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-2xl bg-gradient-to-br from-purple-400 to-purple-600 p-1 transition-all duration-300 hover:scale-105 mx-auto">
-                <div className="w-full h-full rounded-2xl bg-gray-200 flex items-center justify-center overflow-hidden">
-                  {/* Placeholder for professional photo */}
-                  <div className="w-full h-full bg-gradient-to-br from-gray-300 to-gray-400 flex items-center justify-center">
-                    <div className="text-center text-gray-600">
-                      <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 mx-auto mb-3 sm:mb-4 bg-gray-500 rounded-full flex items-center justify-center transition-all duration-300 hover:bg-gray-600 touch-manipulation">
-                        <svg
-                          className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 text-gray-300"
-                          fill="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-                        </svg>
-                      </div>
-                      <p className="text-xs sm:text-sm font-medium">
-                        Professional Photo
-                      </p>
-                      <p className="text-xs">Coming Soon</p>
-                    </div>
-                  </div>
+                <div className="w-full h-full rounded-2xl overflow-hidden">
+                  <img
+                    src="/images/profile.jpg"
+                    alt="Suraj Kumar Sah - Full Stack Developer at ESSPL"
+                    className="w-full h-full object-cover rounded-xl"
+                  />
                 </div>
               </div>
 
