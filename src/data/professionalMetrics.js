@@ -9,8 +9,8 @@ const professionalMetrics = {
         workingHours: "Mon-Fri, 9 AM - 6 PM IST"
     },
     metrics: {
-        projectsCompleted: "15+",
-        clientSatisfaction: "98%",
+        projectsCompleted: "2+",
+        clientSatisfaction: "95%",
         onTimeDelivery: "100%",
         responseTime: "< 24 hours",
         yearsExperience: "1",
@@ -25,7 +25,7 @@ const professionalMetrics = {
         },
         {
             title: "Client Satisfaction",
-            value: "98%",
+            value: "95%",
             description: "Average client satisfaction rating based on project feedback",
             icon: "⭐"
         },

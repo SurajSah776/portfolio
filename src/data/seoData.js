@@ -13,11 +13,11 @@ export const seoData = {
                 "@type": "Organization",
                 "name": "ESSPL"
             },
-            "url": "https://yourportfolio.com",
+            "url": "https://surajkumarsah.onrender.com",
             "sameAs": [
-                "https://linkedin.com/in/yourprofile",
-                "https://github.com/yourusername",
-                "https://twitter.com/yourhandle"
+                "https://linkedin.com/in/suraj-kumar-sah",
+                "https://github.com/SurajSah776",
+                "https://twitter.com/SurajSah776"
             ],
             "knowsAbout": [
                 "React.js",
@@ -104,8 +104,8 @@ export const seoData = {
                 "@type": "Person",
                 "name": "Full-Stack Developer",
                 "jobTitle": "Full-Stack Developer",
-                "email": "your-email@gmail.com",
-                "url": "https://yourportfolio.com/contact"
+                "email": "surajkumarsah2060@gmail.com",
+                "url": "https://surajkumarsah.onrender.com/contact"
             }
         }
     },
@@ -220,7 +220,7 @@ export const generateProjectSEO = (project) => {
                 "jobTitle": "Full-Stack Developer"
             },
             "about": project.technologies,
-            "url": `https://yourportfolio.com/portfolio/${project.id}`,
+            "url": `https://surajkumarsah.onrender.com/portfolio/${project.id}`,
             "dateCreated": project.date || "2024",
             "programmingLanguage": project.technologies
         }
@@ -230,10 +230,10 @@ export const generateProjectSEO = (project) => {
 // Site-wide SEO configuration
 export const siteConfig = {
     siteName: 'Portfolio - Full-Stack Developer',
-    siteUrl: 'https://yourportfolio.com',
+    siteUrl: 'https://surajkumarsah.onrender.com',
     author: 'Full-Stack Developer',
     twitterHandle: '@yourhandle',
-    defaultImage: 'https://yourportfolio.com/images/og-image.jpg',
+    defaultImage: 'https://surajkumarsah.onrender.com/images/og-image.jpg',
     themeColor: '#9810fa',
     backgroundColor: '#ffffff',
     language: 'en',

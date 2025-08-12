@@ -42,14 +42,16 @@ const ExperiencePage = () => {
             </div>
             <div className={`text-sm ${classes.textLight}`}>Projects</div>
           </div>
-          <div
+
+          {/* <div
             className={`${classes.cardBg} p-6 rounded-xl text-center ${classes.border} shadow-sm`}
           >
             <div className="text-3xl font-bold text-green-600 mb-2">
               {professionalMetrics.clientSatisfaction}%
             </div>
             <div className={`text-sm ${classes.textLight}`}>Satisfaction</div>
-          </div>
+          </div> */}
+
           <div
             className={`${classes.cardBg} p-6 rounded-xl text-center ${classes.border} shadow-sm`}
           >

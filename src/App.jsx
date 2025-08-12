@@ -16,7 +16,7 @@ const ContactPage = lazy(() => import("./pages/ContactPage"));
 const CaseStudyPage = lazy(() => import("./pages/CaseStudyPage"));
 const ExperiencePage = lazy(() => import("./pages/ExperiencePage"));
 const ResumePage = lazy(() => import("./pages/ResumePage"));
-const TestimonialsPage = lazy(() => import("./pages/TestimonialsPage"));
+// const TestimonialsPage = lazy(() => import("./pages/TestimonialsPage"));
 const CertificationsPage = lazy(() => import("./pages/CertificationsPage"));
 
 function App() {
@@ -44,10 +44,10 @@ function App() {
                     <Route path="/contact" element={<ContactPage />} />
                     <Route path="/experience" element={<ExperiencePage />} />
                     <Route path="/resume" element={<ResumePage />} />
-                    <Route
+                    {/* <Route
                       path="/testimonials"
                       element={<TestimonialsPage />}
-                    />
+                    /> */}
                     <Route
                       path="/certifications"
                       element={<CertificationsPage />}

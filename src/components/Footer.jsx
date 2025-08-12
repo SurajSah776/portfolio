@@ -22,17 +22,17 @@ const Footer = () => {
       links: [
         { name: "Experience", path: "/experience" },
         { name: "Resume", path: "/resume" },
-        { name: "Testimonials", path: "/testimonials" },
+        // { name: "Testimonials", path: "/testimonials" },
         { name: "Certifications", path: "/certifications" },
       ],
     },
     {
       title: "Services",
       links: [
-        { name: "React.js Development", path: "/services#react" },
-        { name: "Python FastAPI", path: "/services#python" },
-        { name: "Full-Stack Solutions", path: "/services#fullstack" },
-        { name: "E-commerce Platforms", path: "/services#ecommerce" },
+        { name: "React.js Development", path: "/portfolio/digiaayam" },
+        { name: "Python FastAPI", path: "/portfolio/ecommerce-platform" },
+        { name: "Full-Stack Solutions", path: "/portfolio/ecommerce-platform" },
+        { name: "E-commerce Platforms", path: "/portfolio/ecommerce-platform" },
       ],
     },
   ];

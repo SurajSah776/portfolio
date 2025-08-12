@@ -334,7 +334,7 @@ const TestimonialsPage = () => {
 
           <div className="mt-6 text-center">
             <a
-              href="https://linkedin.com/in/yourprofile"
+              href="https://linkedin.com/in/suraj-kumar-sah"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"

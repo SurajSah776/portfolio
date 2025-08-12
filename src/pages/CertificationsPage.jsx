@@ -3,7 +3,7 @@ import {
   certifications,
   education,
   continuousLearning,
-  awards,
+  // awards,
 } from "../data/certifications";
 import { useTheme } from "../contexts/ThemeContext";
 
@@ -77,12 +77,15 @@ const CertificationsPage = () => {
                   Ongoing Courses
                 </div>
               </div>
-              <div className="text-center">
+
+              {/* Future (Awards and Recignition) */}
+              {/* <div className="text-center">
                 <div className="text-3xl font-bold text-purple-600 mb-1">
                   {awards.length}
                 </div>
                 <div className={`${classes.textMuted} text-sm`}>Awards</div>
-              </div>
+              </div> */}
+
             </div>
           </div>
         </div>
@@ -307,8 +310,8 @@ const CertificationsPage = () => {
           </div>
         </section>
 
-        {/* Awards & Recognition Section */}
-        <section className="mb-16">
+        {/* Future: Awards & Recognition Section */}
+        {/* <section className="mb-16">
           <h2 className={`text-3xl font-bold ${classes.text} mb-8`}>
             Awards & Recognition
           </h2>
@@ -340,7 +343,7 @@ const CertificationsPage = () => {
               </div>
             ))}
           </div>
-        </section>
+        </section> */}
 
         {/* Continuous Learning Section */}
         <section className="mb-16">

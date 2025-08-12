@@ -7,7 +7,7 @@ export const skills = {
             icon: "⚛️",
             description: "Building modern, interactive user interfaces with React hooks and context",
             experience: "3+ years",
-            projects: ["E-commerce Platform", "Digiaayam", "BookMart", "KiitHub"],
+            projects: ["E-commerce Platform", "Digiaayam", "BookMart", "KIITHub"],
             keyFeatures: ["Hooks", "Context API", "Component Libraries", "State Management"],
             color: "text-blue-500"
         },
@@ -16,7 +16,7 @@ export const skills = {
             level: 80,
             icon: "🟨",
             description: "ES6+ features, async programming, and modern JavaScript development",
-            experience: "4+ years",
+            experience: "1+ year",
             projects: ["All Projects"],
             keyFeatures: ["ES6+", "Async/Await", "DOM Manipulation", "API Integration"],
             color: "text-yellow-500"
@@ -26,7 +26,7 @@ export const skills = {
             level: 90,
             icon: "🎨",
             description: "Utility-first CSS framework for rapid UI development",
-            experience: "2+ years",
+            experience: "1+ years",
             projects: ["E-commerce Platform", "Digiaayam", "BookMart"],
             keyFeatures: ["Responsive Design", "Custom Components", "Dark Mode", "Animations"],
             color: "text-cyan-500"
@@ -36,7 +36,7 @@ export const skills = {
             level: 90,
             icon: "🌐",
             description: "Semantic markup and modern CSS features for web development",
-            experience: "1+ years",
+            experience: "2+ years",
             projects: ["All Projects"],
             keyFeatures: ["Semantic HTML", "Flexbox", "Grid", "Animations"],
             color: "text-orange-500"
@@ -48,8 +48,8 @@ export const skills = {
             level: 85,
             icon: "🐍",
             description: "Backend development, data processing, and API development",
-            experience: "3+ years",
-            projects: ["E-commerce Platform", "Digiaayam", "BookMart", "KiitHub"],
+            experience: "6 months",
+            projects: ["E-commerce Platform"],
             keyFeatures: ["Object-Oriented Programming", "Data Structures", "Algorithms", "Web Development"],
             color: "text-green-500"
         },
@@ -58,30 +58,10 @@ export const skills = {
             level: 80,
             icon: "⚡",
             description: "High-performance API development with automatic documentation",
-            experience: "2+ years",
-            projects: ["E-commerce Platform", "Digiaayam", "KiitHub"],
+            experience: "6 months",
+            projects: ["E-commerce Platform", "Digiaayam"],
             keyFeatures: ["Async/Await", "Automatic Docs", "Type Hints", "High Performance"],
             color: "text-emerald-500"
-        },
-        {
-            name: "Django",
-            level: 75,
-            icon: "🎯",
-            description: "Full-featured web framework for rapid development",
-            experience: "2+ years",
-            projects: ["BookMart"],
-            keyFeatures: ["ORM", "Admin Panel", "Authentication", "REST Framework"],
-            color: "text-green-600"
-        },
-        {
-            name: "Node.js",
-            level: 70,
-            icon: "🟢",
-            description: "Server-side JavaScript runtime for scalable applications",
-            experience: "1+ years",
-            projects: ["Personal Projects"],
-            keyFeatures: ["Express.js", "NPM", "Event-Driven", "Non-blocking I/O"],
-            color: "text-green-400"
         }
     ],
     database: [
@@ -90,7 +70,7 @@ export const skills = {
             level: 75,
             icon: "🗄️",
             description: "Database design, optimization, and management",
-            experience: "2+ years",
+            experience: "0",
             projects: ["E-commerce Platform", "BookMart", "KiitHub"],
             keyFeatures: ["T-SQL", "Stored Procedures", "Indexing", "Performance Tuning"],
             color: "text-red-500"
@@ -100,20 +80,10 @@ export const skills = {
             level: 70,
             icon: "🐘",
             description: "Advanced open-source relational database system",
-            experience: "1+ years",
-            projects: ["Digiaayam"],
+            experience: "6 months",
+            projects: ["Digiaayam", "E-commerce"],
             keyFeatures: ["ACID Compliance", "JSON Support", "Advanced Queries", "Scalability"],
             color: "text-blue-600"
-        },
-        {
-            name: "Redis",
-            level: 65,
-            icon: "🔴",
-            description: "In-memory data structure store for caching and sessions",
-            experience: "1+ years",
-            projects: ["KiitHub"],
-            keyFeatures: ["Caching", "Session Storage", "Pub/Sub", "Data Structures"],
-            color: "text-red-600"
         }
     ],
     tools: [
@@ -122,9 +92,9 @@ export const skills = {
             level: 80,
             icon: "📝",
             description: "Version control and collaborative development",
-            experience: "3+ years",
+            experience: "2+ years",
             projects: ["All Projects"],
-            keyFeatures: ["Branching", "Merging", "Collaboration", "GitHub/GitLab"],
+            keyFeatures: ["Branching", "Merging", "Collaboration", "GitHub"],
             color: "text-gray-600"
         },
         {
@@ -132,7 +102,7 @@ export const skills = {
             level: 75,
             icon: "⚡",
             description: "Modern build tool for fast development",
-            experience: "2+ years",
+            experience: "1+ years",
             projects: ["Recent React Projects"],
             keyFeatures: ["Hot Reload", "Fast Builds", "ES Modules", "Plugin System"],
             color: "text-purple-500"
@@ -152,7 +122,7 @@ export const skills = {
             level: 65,
             icon: "🐳",
             description: "Containerization for consistent development environments",
-            experience: "1+ years",
+            experience: "6 months",
             projects: ["Deployment Projects"],
             keyFeatures: ["Containerization", "Docker Compose", "Image Management", "Deployment"],
             color: "text-blue-500"
@@ -162,7 +132,7 @@ export const skills = {
             level: 80,
             icon: "📮",
             description: "API development and testing tool",
-            experience: "2+ years",
+            experience: "1+ years",
             projects: ["All Backend Projects"],
             keyFeatures: ["API Testing", "Collections", "Environment Variables", "Automation"],
             color: "text-orange-400"
@@ -239,7 +209,7 @@ export const skillStats = {
     expertLevel: skillLevels.expert.length,
     advancedLevel: skillLevels.advanced.length,
     averageLevel: Math.round(allSkills.reduce((sum, skill) => sum + skill.level, 0) / allSkills.length),
-    totalExperience: "4+ years",
+    totalExperience: "1+ years",
     primaryStack: ["React.js", "Python", "FastAPI", "SQL Server", "Tailwind CSS"]
 };
 
@@ -265,22 +235,22 @@ export const getSkillsByProject = (projectName) => {
 // Skill progression data for timeline visualization
 export const skillProgression = [
     {
-        year: "2021",
+        year: "2023",
         skills: ["HTML5 & CSS3", "JavaScript", "Git"],
         milestone: "Started web development journey"
     },
     {
-        year: "2022",
+        year: "2024",
         skills: ["React.js", "Python", "SQL Server"],
         milestone: "Learned modern frameworks and backend development"
     },
     {
-        year: "2023",
+        year: "2024",
         skills: ["FastAPI", "Django", "Tailwind CSS"],
         milestone: "Specialized in full-stack development"
     },
     {
-        year: "2024",
+        year: "2025",
         skills: ["PostgreSQL", "Docker", "Redis"],
         milestone: "Advanced tools and deployment technologies"
     }

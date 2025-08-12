@@ -1,54 +1,28 @@
 // Professional certifications and educational achievements
 export const certifications = [
     {
-        id: "react-advanced",
-        name: "Advanced React.js Development",
+        id: "frontend-development",
+        name: "Introduction to Front-End Development",
         issuer: "Meta (Facebook)",
         date: "2023",
         expiry: null,
-        credentialId: "REACT-ADV-2023-001",
-        verificationUrl: "#",
-        skills: ["React.js", "Hooks", "Context API", "Performance Optimization"],
-        image: "/images/certifications/react-advanced.png",
+        credentialId: "W7PZWFYSN4QV",
+        verificationUrl: "https://www.coursera.org/account/accomplishments/verify/W7PZWFYSN4QV",
+        skills: ["HTML", "CSS", "JavaScript", "Performance Optimization"],
+        image: "/images/certificates/frontend.jpg",
         type: "professional",
         status: "active"
     },
     {
-        id: "python-fastapi",
-        name: "FastAPI for Python Development",
-        issuer: "Python Institute",
+        id: "backend-development",
+        name: "Introduction to Back-End Development",
+        issuer: "Meta (Facebook)",
         date: "2023",
         expiry: null,
-        credentialId: "FASTAPI-2023-002",
-        verificationUrl: "#",
-        skills: ["Python", "FastAPI", "API Development", "Documentation"],
-        image: "/images/certifications/fastapi.png",
-        type: "professional",
-        status: "active"
-    },
-    {
-        id: "fullstack-web",
-        name: "Full-Stack Web Development",
-        issuer: "FreeCodeCamp",
-        date: "2022",
-        expiry: null,
-        credentialId: "FCC-FULLSTACK-2022",
-        verificationUrl: "#",
-        skills: ["HTML", "CSS", "JavaScript", "React.js", "Node.js"],
-        image: "/images/certifications/fullstack.png",
-        type: "professional",
-        status: "active"
-    },
-    {
-        id: "sql-server",
-        name: "SQL Server Database Administration",
-        issuer: "Microsoft",
-        date: "2023",
-        expiry: "2026",
-        credentialId: "MS-SQL-2023-003",
-        verificationUrl: "#",
-        skills: ["SQL Server", "Database Design", "Performance Tuning"],
-        image: "/images/certifications/sql-server.png",
+        credentialId: "ZVCGLXWRKBET",
+        verificationUrl: "https://www.coursera.org/account/accomplishments/verify/ZVCGLXWRKBET",
+        skills: ["Node.js", "Express.js", "MongoDB", "Documentation", "API Design"],
+        image: "/images/certificates/backend.jpg",
         type: "professional",
         status: "active"
     }
@@ -60,22 +34,28 @@ export const education = [
         id: "btech-cse",
         degree: "Bachelor of Technology",
         field: "Computer Science and Engineering",
-        institution: "KIIT University",
+        institution: "Kalinga Institute of Industrial University",
         location: "Bhubaneswar, India",
-        startYear: "2019",
-        endYear: "2023",
-        grade: "8.5 CGPA",
+        startYear: "2021",
+        endYear: "2025",
+        grade: "9.37 CGPA",
         achievements: [
-            "Dean's List for Academic Excellence",
-            "Best Project Award for Final Year Project",
-            "Active member of Coding Club"
+            "Top 50 in Academic Excellence",
         ],
         relevantCourses: [
             "Data Structures and Algorithms",
-            "Web Development",
+            "Object Oriented Programming",
+            "Automata and Formal Languages",
+            "Operating Systems",
             "Database Management Systems",
             "Software Engineering",
-            "Computer Networks"
+            "Computer Networks",
+            "Computer Architecture and Organization",
+            "High Performance Computing",
+            "Cloud Computing",
+            "Web Development",
+            "Data Analytics",
+            "Big Data"
         ]
     }
 ];
@@ -83,37 +63,43 @@ export const education = [
 // Professional development and continuous learning
 export const continuousLearning = [
     {
-        title: "Advanced React Patterns",
-        provider: "Epic React by Kent C. Dodds",
-        date: "2024",
-        status: "completed"
-    },
-    {
-        title: "Python Performance Optimization",
-        provider: "Real Python",
+        title: "Advanced React Concepts",
+        provider: "React Dev",
         date: "2024",
         status: "in-progress"
     },
     {
-        title: "System Design Fundamentals",
-        provider: "Educative.io",
+        title: "FastAPI",
+        provider: "FastAPI Tiangolo",
+        date: "2025",
+        status: "in-progress"
+    },
+    {
+        title: "Responsive Designs",
+        provider: "W3Schools",
         date: "2024",
+        status: "completed"
+    },
+    {
+        title: "Next.js",
+        provider: "Next.js Doc",
+        date: "2026",
         status: "planned"
     }
 ];
 
 // Awards and recognition
-export const awards = [
-    {
-        title: "Employee of the Month",
-        organization: "ESSPL",
-        date: "March 2024",
-        description: "Recognized for outstanding performance in project delivery and team collaboration"
-    },
-    {
-        title: "Best Innovation Award",
-        organization: "ESSPL",
-        date: "December 2023",
-        description: "For implementing automated testing pipeline that improved code quality"
-    }
-];
+// export const awards = [
+//     {
+//         title: "Employee of the Month",
+//         organization: "ESSPL",
+//         date: "March 2024",
+//         description: "Recognized for outstanding performance in project delivery and team collaboration"
+//     },
+//     {
+//         title: "Best Innovation Award",
+//         organization: "ESSPL",
+//         date: "December 2023",
+//         description: "For implementing automated testing pipeline that improved code quality"
+//     }
+// ];
